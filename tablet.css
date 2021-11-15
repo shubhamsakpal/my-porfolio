@@ -1,6 +1,6 @@
 /* navbar */
 .navbar{
-    position: fixed;
+    position: sticky;
 }
 .column{
     justify-content: center;
