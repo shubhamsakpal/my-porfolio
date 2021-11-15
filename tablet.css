@@ -1,3 +1,7 @@
+/* navbar */
+.navbar{
+    position: fixed;
+}
 .column{
     justify-content: center;
     padding-left: 20px;
