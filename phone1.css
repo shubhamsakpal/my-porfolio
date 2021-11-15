@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .navbar{
-    position: fixed;
+    position: sticky;
 }
 
 
