@@ -1,0 +1,23 @@
+/* Boxes */
+.column{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.box{
+    margin: 20px;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(143, 140, 140);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: rgb(30, 255, 244);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
