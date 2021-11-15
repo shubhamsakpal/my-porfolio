@@ -23,5 +23,5 @@
 }
 /* navbar */
 .navbar{
-    position: fixed;
+    position: sticky;
 }
