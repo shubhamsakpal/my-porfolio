@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.navbar{
+    position: fixed;
+}
 
 
 /* Heading */
