@@ -1,0 +1,92 @@
+/* Navbar */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* Heading */
+.heading{
+    font-size: 2.6rem;
+}
+
+/* About Section */
+.about{
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    padding-left: 50px;
+}
+.about img{
+    width: 200px;
+    height: 230px;
+}
+
+/* Message box */
+#message{
+    width: 40%;
+    height: 200px;
+}
+#contact h2{
+    font-size: 1rem;
+}
+#contact p{
+    font-size: .8rem;
+}
+#submit{
+    padding: 10px 15px;
+    margin: 30px;
+    width: 20%;
+    border-radius: 15px;
+    background-color: rgb(214, 212, 209);
+    color: black;
+    border: none;
+    outline: none;}
+
+/* Boxes */
+.box{
+    height: 150px;
+    width: 250px;
+    background-color: rgb(143, 140, 140);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.box h2{
+    color: rgb(30, 255, 244);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.box p{
+    color: white;
+    font-size: .8rem;
+}
+
+/* Home Section */
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('pic.jpg') no-repeat center center/cover;
+    height: 700px;
+    width: 160%;
+    z-index: -1;
+    opacity: .8;
+}
+.social-icons{
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    transform: translateY(-50%);
+}
+.social-icons img{
+    width: 30px;
+    display: flexbox;
+    margin: 5px 20px;
+    background-color: #fff;
+}
