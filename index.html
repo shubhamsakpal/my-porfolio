@@ -1,9 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1220px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:900px" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:695px" href="phone1.css">
+</head>
+</head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="heading">Hi, I'm</h1>
+        <h1 class="heading">Shubham Sakpal</h1>
+        <p>And This Is My Portfolio</p>
+        <div class="text-box">
+            <a href="#portfolio">Explore My Portfolio</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/shubham-sakpal-9891911bb"><img src="linkedin.png"></a>
+            <a href="https://www.facebook.com/shubham.sakpal.718689"><img src="facebook.png"></a>
+            <a href="https://twitter.com/SHUBHAM33630798?t=1vClrk8k5PPGkgYoEL0gSw&s=09"><img src="twitter.png"></a>
+            <a href="https://www.instagram.com/shubham_sakpal17/"><img src="instagram.png"></a>
+        </div>
+    </section>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <section id="portfolio">
+        <h1 class="heading">Portfolio</h1>
+        <div class="column">
+            <div class="box">
+                <h2>Diploma in Mechanical Engineering</h2>
+                <p>Viva college of Diploma Engineering and Technology,Mumbai. Msbte board 68.41%</p>
+            </div>
+            <div class="box">
+                <h2>Bachelors in Mechanical Engineering</h2>
+                <p>Indira college of engineering and Management,Pune. Savitribai Phule Pune University 81.90% (till 3rd year)</p>
+            </div>
+            <div class="box">
+                <h2>Other Courses</h2>
+                <p>Complete Course in AutoCaD:2D & 3D. Udemy(online)<br><br>Complete course in Python Programming. Udemy(online)</p>
+            </div>
+            <div class="box">
+                <h2>Extra Curricular Activities</h2>
+                <p>Intra-college football tournament Runnerups(Diploma 2019)<br><br>Pimpri Chinchwad College of Engineering football tournament Runnerups(2020)</p>
+            </div>
+            <div class="box">
+                <h2>Interests</h2>
+                <p>Sports, Music, Cycling, Machine Modifications</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="about">
+        <h1 class="heading">About Me</h1>
+        <div class="about">
+            <img src="pic2.jpg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Shubham Sakpal</h2>
+                <p>I'm a Mechanical Engineer aiming towards an opportunity for a fresher to utilize my skills and learning in a practical field work to gain experience and bring out the best outcome from my work for a respective company. Besides from my core knowledge I also know HTML and CSS languages and in addition to that I'm also pursuing Python Programming language to advance in IT field also. Talking about my Personality I'm a independent person and a quick learner with good comunnication skills and leadership qualities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="" class="input" placeholder="Enter Your Email">
+            <textarea name="message" id="message" cols="70" rows="20" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="submit" id="submit">
+        <h2 class="cont">
+            Contact no: +91 9833633619
+        </h2>
+        <p>Email: shubhamsakpal1999@gmail.com</p>    
+    </section>
+    
 </body>
 </html>
